@@ -34,3 +34,5 @@ plt.scatter(train_x, train_y)
 plt.plot(myline, mymodel(myline))
 plt.show()
 print(r2)
+#now as model is trained and tested properly now we can predict values
+print(mymodel(5))
